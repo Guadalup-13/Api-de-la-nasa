@@ -40,7 +40,7 @@
       try {
         const res = await fetch(url);
         const data = await res.json();
-        const resultados = data.collection.items.slice(0, 12);
+        const resultados = data.collection.items.slice(0, 24);
 
         gallery.innerHTML = resultados.map(item => {
           const img = item.links?.[0]?.href || "";
