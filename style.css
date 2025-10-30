@@ -15,7 +15,8 @@ font-family: Goblin One;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    scale: (1.05);
+    transform: scale(1.05);
+    transform-origin: top center;
     
 
 }
